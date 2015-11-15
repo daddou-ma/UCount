@@ -125,6 +125,7 @@ public class Counter extends Activity
     public void initActivity()
     {
         this.counterView.setText(Integer.toString(this.database.getLastline().getCount()));
+        counter =this.database.getLastline().getCount();
     }
 
     /**
